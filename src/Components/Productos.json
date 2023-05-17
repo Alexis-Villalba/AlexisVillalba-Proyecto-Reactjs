@@ -1,0 +1,165 @@
+{
+    "productos": [{
+            "id": 1,
+            "nombre": "Aceite Natura 900ml",
+            "precio": 550,
+            "categoria": "Aceites",
+            "descripcion": "Aceite puro de girasol marca Natura de 900ml",
+            "stock": 10,
+            "imagen":"https://carrefourar.vtexassets.com/arquivos/ids/155424/7790272001005_02.jpg?v=637457062414270000"
+        },
+        {
+            "id": 2,
+            "nombre": "Aceite Natura 1,5l",
+            "precio": 650,
+            "categoria": "Aceites",
+            "descripcion": "Aceite puro de girasol marca Natura de 1,5l",
+            "stock": 10,
+            "imagen":"https://static.wixstatic.com/media/26559c_249f17877e594f239791d5e6023bf6c3~mv2.jpg/v1/fill/w_551,h_551,al_c,q_85,usm_0.66_1.00_0.01/26559c_249f17877e594f239791d5e6023bf6c3~mv2.jpg"
+        },
+        {
+            "id": 3,
+            "nombre": "Leche Ilolay entera 1l",
+            "precio": 250,
+            "categoria": "Lacteos",
+            "descripcion": "Leche entera marca Ilolay de 1l",
+            "stock": 15,
+            "imagen":"https://hiperlibertad.vteximg.com.br/arquivos/ids/194920-1000-1000/LECHE-ILOLAY-LARGA-VIDA-ENTERA-X-1-L-LECHE-ILOLAY-LV-ENT-FORT-X1LT-1-28910.jpg?v=637859145990230000"
+        },
+        {
+            "id": 4,
+            "nombre": "Leche Ilolay descremada 1l",
+            "precio": 250,
+            "categoria": "Lacteos",
+            "descripcion": "Leche entera marca Ilolay de 1l" ,
+            "stock": 12,
+            "imagen":"https://supermas.cdn1.dattamax.com/userfiles/images/productos/600/12665.png"
+        },
+        {
+            "id": 5,
+            "nombre": "Tomates Peritas Arcor",
+            "precio": 240,
+            "categoria": "Alimentos",
+            "descripcion": "Tomates peritas enteros en lata marca Arcor",
+            "stock": 6,
+            "imagen":"https://tatauy.vteximg.com.br/arquivos/ids/410374-1000-1000/Tomate-Pelado-Perita-Arcor-Lata-400-G-1-593.jpg?v=637938633869100000"
+        },
+        {
+            "id":6,
+            "nombre": "Pure de tomate Salsati 520g" ,
+            "precio": 200,
+            "categoria": "Alimentos",
+            "descripcion": "Pure de tomate libre de gluten marca Salsati de 520g ",
+            "stock": 7,
+            "imagen":"https://images-ti-vm1.tiendainglesa.com.uy/medium/P187690-1.jpg?20210423152203,Pure-de-Tomate-LA-CAMPAGNOLA-Salsati-520-gr-en-Tienda-Inglesa"
+        },
+        {
+            "id": 7,
+            "nombre":"Pure de tomate De La Huerta 210g" ,
+            "precio": 100,
+            "categoria": "Alimentos",
+            "descripcion": "Pure de tomate de tomate libre de gluten marca De La Huerta de 210g",
+            "stock": 5,
+            "imagen":"https://davelcor.com.ar/wp-content/uploads/2021/05/pure-de-tomate-de-la-huerta-x-210-gr-300x300.jpg"
+        },
+        {
+            "id": 8,
+            "nombre": "Yerba mate Aguantadora 500gr",
+            "precio": 430,
+            "categoria": "Alimentos",
+            "descripcion": "Yerba mate tradicional marca Aguantadora de 500gr",
+            "stock":10,
+            "imagen":"https://ymt24.pl/userdata/public/gfx/2930.jpg"
+        },
+        {
+            "id": 9,
+            "nombre":"Yerba mate suave Sinceridad 500gr" ,
+            "precio": 430,
+            "categoria": "Alimentos",
+            "descripcion": "Yerba mate Suave marca Sinceridad de 500gr",
+            "stock": 12,
+            "imagen":"https://static.cotodigital3.com.ar/sitios/fotos/full/00074400/00074424.jpg?3.0.124c"
+        },
+        {
+            "id": 10,
+            "nombre": "Yerba mate CBSé Hierbas serranas 500gr",
+            "precio": 400,
+            "categoria": "Alimentos",
+            "descripcion": "Yerba mate saborizada con hierbas serranas marca CBSé de 500gr",
+            "stock":8,
+            "imagen":"https://argentinisimo.es/wp-content/uploads/2019/02/cbse-hierbas-serranas.jpg"
+        },
+        {
+            "id":11 ,
+            "nombre": "Dulce de leche clásico Ilolay 405g",
+            "precio": 450,
+            "categoria": "Alimentos",
+            "descripcion": "Dulce de leche clásico marca Ilolay de 405g",
+            "stock": 6,
+            "imagen":"https://carrefourar.vtexassets.com/arquivos/ids/236935/7790787949823_02.jpg?v=637818417758400000"
+        },
+        {
+            "id": 12,
+            "nombre": "Dulce de leche clásico Ilolay 205g",
+            "precio": 250,
+            "categoria": "Alimentos",
+            "descripcion":"Dulce de leche clásico marca Ilolay de 205g" ,
+            "stock": 4,
+            "imagen":"https://carrefourar.vtexassets.com/arquivos/ids/236934/7790787949816_02.jpg?v=637818417750570000"
+        },
+        {
+            "id":13 ,
+            "nombre": "Palitos de maiz Cheetos 45gr",
+            "precio": 250,
+            "categoria":"Snacks" ,
+            "descripcion":"Palitos de maiz sabor a queso marca Cheetos de 45gr" ,
+            "stock": 10,
+            "imagen":"https://buenosayresexpress.com.ar/wp-content/uploads/2020/10/3494.jpg"
+        },
+        {
+            "id": 14,
+            "nombre": "Papas lays Clásicas 45gr" ,
+            "precio": 250,
+            "categoria": "Snacks",
+            "descripcion": "Papas fritas clásicas marca Lays de 45 gr",
+            "stock": 8,
+            "imagen":"https://cdn.shopify.com/s/files/1/0043/4903/4560/products/39340_1600x.jpg?v=1631668926"
+        },
+        {
+            "id": 15,
+            "nombre": "Doritos 45gr",
+            "precio": 300,
+            "categoria": "Snacks",
+            "descripcion": "Doritos sabor a queso de 45 gr",
+            "stock":7,
+            "imagen":"https://www.bigw.com.au/medias/sys_master/images/images/h48/h43/11305899819038.jpg"
+        },
+        {
+            "id":16 ,
+            "nombre": "Cif gel",
+            "precio": 400,
+            "categoria": "Articulos de limpieza",
+            "descripcion": "cif gel Ultra blanco de 500 cm3/ml ",
+            "stock":4,
+            "imagen":"https://carrefourar.vtexassets.com/arquivos/ids/248519-800-auto?v=637916098138630000&width=800&height=auto&aspect=true"
+        },
+        {
+            "id": 17,
+            "nombre": "Ceramicol Autobrillo 800cm3",
+            "precio": 600,
+            "categoria": "Articulos de limpieza",
+            "descripcion": "Ceramicol Autobrillo incoloro de 800cm",
+            "stock":5,
+            "imagen":"https://f.fcdn.app/imgs/3a92fa/coraluy.com/corauy/1034/original/catalogo/CLCA4441451/800x800/cera-liquida-ceramicol-autobrillo-incoloro-800-ml.jpg"
+        },
+        {
+            "id": 18,
+            "nombre": "Cif recargable baño",
+            "precio":200 ,
+            "categoria":"Articulos de limpieza" ,
+            "descripcion": "Cif recargable económico para Baño con agentes biodegradables",
+            "stock": 6,
+            "imagen":"https://f.fcdn.app/imgs/b0fd78/coraluy.com/corauy/365b/original/catalogo/LLCIFB4431601/1920-1200/limpiador-liquido-cif-bano-biodegradable-doypack-900-ml.jpg"
+        }
+    ]
+}

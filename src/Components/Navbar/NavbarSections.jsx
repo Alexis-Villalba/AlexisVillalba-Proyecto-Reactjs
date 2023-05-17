@@ -1,16 +1,17 @@
 import React from 'react';
-import Nav from 'react-bootstrap/Nav';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import Carrito from './Carrito/Carrito';
+import Navbar from 'react-bootstrap/Navbar';
+import { NavLink } from 'react-router-dom';
 
 
 const NavbarSections = () => {
   return (
     <div className="d-flex">
-      <Nav.Link href="#Categorías">Categorías</Nav.Link>
-      <Nav.Link href="#Contacto">Contacto</Nav.Link>
-      <Nav.Link href="#Nosotros">Nosotros</Nav.Link>
+      <Navbar.Brand href="/">MaxiKiosco Ilolay</Navbar.Brand>
+      <NavLink to="/Categorias">Categorías</NavLink>
+      <NavLink to="/Nosotros">Nosotros</NavLink>
       <Form className="d-flex">
             <Form.Control
               type="search"

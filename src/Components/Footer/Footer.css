@@ -1,8 +1,10 @@
 
 
-.footer {
-    width: 100% !important;
-    height: 100% !important; }
+
+
+    .footer {
+        flex-shrink: 0;
+      }
 
 .text-decoration {
     text-decoration: dotted !important; }

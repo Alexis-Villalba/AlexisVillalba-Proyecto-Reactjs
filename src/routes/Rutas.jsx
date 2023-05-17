@@ -8,9 +8,28 @@ import Navbar from '../Components/Navbar/NavBar'
 import Footer from '../Components/Footer/Footer';
 
 const Rutas = () => {
+  const navItems = [
+    {
+      path:"/",
+      name:"Home"
+    },
+    {
+      path:"/categoria/1",
+      name:"Categorías"
+    },
+    {
+      path:"item/1",
+      name:"Item"
+    },
+    {
+      path:"/nosotros",
+      name:"Nosotros"
+    }
+    
+  ]
   return (
     <BrowserRouter>
-    <Navbar/>
+    <Navbar navItems={navItems}/>
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/categoria/:id' element={<Categorias/>}/>

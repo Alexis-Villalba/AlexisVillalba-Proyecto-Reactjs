@@ -16,11 +16,10 @@ const ItemDetail = () => {
       setLoading(false)
     }, 2000);
   },[]);
-  console.log(useParams())
 
   return (
     <Fragment>
-      <button className='btn btn-primary'onClick={()=>navigate(-1)}>Volver</button>
+      <button className='btn btn-primary m-3'onClick={()=>navigate(-1)}>Volver</button>
       <hr />
       {loading && <h1>Cargando...</h1>}
       {item && !loading && (
@@ -28,7 +27,7 @@ const ItemDetail = () => {
           <img src={item.imagen} alt={item.nombre} />
           <h1>{item.nombre}</h1>
           <p>{item.descripcion}</p>
-          <p>{item.precio}</p>
+          <p>${item.precio}</p>
 
         </div>
       )}

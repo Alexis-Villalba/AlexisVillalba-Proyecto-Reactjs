@@ -33,7 +33,7 @@ const Rutas = () => {
     <Navbar navItems={navItems}/>
       <Routes>
         <Route path='/' element={<Home/>}/>
-        <Route path='/categoria/:id' element={<Categorias/>}/>
+        <Route path='/categoria/:cat' element={<Categorias/>}/>
         <Route path='/nosotros' element={<Nosotros/>}/>
         <Route path='/item/:id' element={<ItemDetail/>}/>
       </Routes>

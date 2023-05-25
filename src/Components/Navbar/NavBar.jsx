@@ -6,9 +6,12 @@ import Navbar from 'react-bootstrap/Navbar';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import Carrito from './Carrito/Carrito';
+import NavDropdown from 'react-bootstrap/NavDropdown';
+import { useNavigate } from 'react-router-dom';
 
 function NavBar(props) {
   const {navItems} = props
+  const navigate = useNavigate()
   
   return (<div className='barra'>
     
@@ -25,7 +28,22 @@ function NavBar(props) {
                 {
                   navItems.map(({path,name},index)=>(
                     <li key={index} className='nav-item'>
-                      <Nav.Link className={'nav-link'} href={path}>{name}</Nav.Link>
+                      <div>
+                      { name === "Categorías" ? (
+  <NavDropdown title={name} id={index}>
+    <NavDropdown.Item onClick={()=>navigate(`/categoria/Aceites`)}>Aceites</NavDropdown.Item>
+    <NavDropdown.Item onClick={()=>navigate(`/categoria/ArticulosDeLimpieza`)}>
+      Artículos de limpieza
+    </NavDropdown.Item>
+    <NavDropdown.Item onClick={()=>navigate(`/categoria/Lacteos`)}>Lácteos</NavDropdown.Item>
+    <NavDropdown.Item onClick={()=>navigate(`/categoria/Alimentos`)}>
+      Alimentos
+    </NavDropdown.Item>
+  </NavDropdown>
+) : (
+  <Nav.Link className="nav-link" href={path}>{name}</Nav.Link>
+)}
+                      </div>
                     </li>
                   ))
                   

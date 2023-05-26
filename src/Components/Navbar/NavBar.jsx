@@ -1,17 +1,18 @@
 import React from 'react';
 import './NavBar.css';
 import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
+import {Nav, Navbar, NavDropdown} from 'react-bootstrap';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import Carrito from './Carrito/Carrito';
-import NavDropdown from 'react-bootstrap/NavDropdown';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link} from 'react-router-dom';
 
 function NavBar(props) {
   const {navItems} = props
   const navigate = useNavigate()
+  const handleCategoriaClick = (categoria) => {
+    navigate(`/categoria/${categoria}`);
+  };
   
   return (<div className='barra'>
     
@@ -31,14 +32,21 @@ function NavBar(props) {
                       <div>
                       { name === "Categorías" ? (
   <NavDropdown title={name} id={index}>
-    <NavDropdown.Item onClick={()=>navigate(`/categoria/Aceites`)}>Aceites</NavDropdown.Item>
-    <NavDropdown.Item onClick={()=>navigate(`/categoria/ArticulosDeLimpieza`)}>
-      Artículos de limpieza
-    </NavDropdown.Item>
-    <NavDropdown.Item onClick={()=>navigate(`/categoria/Lacteos`)}>Lácteos</NavDropdown.Item>
-    <NavDropdown.Item onClick={()=>navigate(`/categoria/Alimentos`)}>
-      Alimentos
-    </NavDropdown.Item>
+            <NavDropdown.Item onClick={() => handleCategoriaClick('Aceites')}>
+              Aceites
+            </NavDropdown.Item>
+            <NavDropdown.Item onClick={() => handleCategoriaClick('Limpieza')}>
+              Artículos de limpieza
+            </NavDropdown.Item>
+            <NavDropdown.Item onClick={() => handleCategoriaClick('Lacteos')}>
+              Lácteos
+            </NavDropdown.Item>
+            <NavDropdown.Item onClick={() => handleCategoriaClick('Alimentos')}>
+              Alimentos
+            </NavDropdown.Item>
+            <NavDropdown.Item onClick={() => handleCategoriaClick('Snacks')}>
+              Snacks
+            </NavDropdown.Item>
   </NavDropdown>
 ) : (
   <Nav.Link className="nav-link" href={path}>{name}</Nav.Link>

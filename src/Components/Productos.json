@@ -137,7 +137,7 @@
             "id":"16" ,
             "nombre": "Cif gel",
             "precio": 400,
-            "categoria": "Articulos de limpieza",
+            "categoria": "Limpieza",
             "descripcion": "cif gel Ultra blanco de 500 cm3/ml ",
             "stock":4,
             "imagen":"https://carrefourar.vtexassets.com/arquivos/ids/248519-800-auto?v=637916098138630000&width=800&height=auto&aspect=true"
@@ -146,7 +146,7 @@
             "id": "17",
             "nombre": "Ceramicol Autobrillo 800cm3",
             "precio": 600,
-            "categoria": "Articulos de limpieza",
+            "categoria": "Limpieza",
             "descripcion": "Ceramicol Autobrillo incoloro de 800cm",
             "stock":5,
             "imagen":"https://f.fcdn.app/imgs/3a92fa/coraluy.com/corauy/1034/original/catalogo/CLCA4441451/800x800/cera-liquida-ceramicol-autobrillo-incoloro-800-ml.jpg"
@@ -155,7 +155,7 @@
             "id": "18",
             "nombre": "Cif recargable baño",
             "precio":200 ,
-            "categoria":"Articulos de limpieza" ,
+            "categoria":"Limpieza" ,
             "descripcion": "Cif recargable económico para Baño con agentes biodegradables",
             "stock": 6,
             "imagen":"https://f.fcdn.app/imgs/b0fd78/coraluy.com/corauy/365b/original/catalogo/LLCIFB4431601/1920-1200/limpiador-liquido-cif-bano-biodegradable-doypack-900-ml.jpg"

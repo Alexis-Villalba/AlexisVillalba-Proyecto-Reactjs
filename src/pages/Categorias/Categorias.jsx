@@ -6,17 +6,18 @@ import { obtenerProductosPorCategoria } from '../../Components/AsyncMock'
 
 const Categorias = () => {
   const navigate = useNavigate()
-  const{id}= useParams();
+  const{categoria}= useParams();
   const [item, setItem] = useState({});
   const [loading, setLoading]  = useState(true);
 
   useEffect(()=>{
     setTimeout(()=>{
-      obtenerProductosPorCategoria('categoria1')
+      obtenerProductosPorCategoria(categoria)
+      
   .then(productos => {
       setItem(Productos)
       setLoading(false)})
-    }, 2000);
+    }, 1000);
   },[]);
 
   return (

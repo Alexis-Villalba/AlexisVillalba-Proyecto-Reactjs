@@ -6,6 +6,6 @@ export const obtenerProductosPorCategoria = (categoriaId) => {
           setTimeout(() => {
             const productosCategoria = Productos.filter(producto => producto.categoria === categoriaId);
             resolve(productosCategoria);
-          }, 2000);
+          }, 1000);
         });
       };

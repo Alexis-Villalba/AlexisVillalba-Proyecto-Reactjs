@@ -6,19 +6,19 @@ import { obtenerProductosPorCategoria } from '../../Components/AsyncMock'
 
 const Categorias = () => {
   const navigate = useNavigate()
-  const{categoria}= useParams();
+  const{cat}= useParams();
   const [item, setItem] = useState({});
   const [loading, setLoading]  = useState(true);
 
   useEffect(()=>{
     setTimeout(()=>{
-      obtenerProductosPorCategoria(categoria)
+      obtenerProductosPorCategoria(cat)
       
   .then(productos => {
-      setItem(Productos)
+      setItem(productos)
       setLoading(false)})
     }, 1000);
-  },[]);
+  },[cat]);
 
   return (
     <Fragment>
@@ -28,7 +28,7 @@ const Categorias = () => {
       {item && !loading && (
         <div>
           <div className='d-flex flex-row mb-3 flex-wrap justify-content-around'>
-      {Productos.map((item) => (
+      {item.map((item) => (
         <Item key={item.id} {...item} />
       ))}
     </div>
